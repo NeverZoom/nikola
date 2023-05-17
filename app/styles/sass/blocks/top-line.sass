@@ -1,0 +1,136 @@
+.top-line
+  padding: 23px 0
+  .logo
+    svg
+      width: 100%
+  .burger
+    margin-left: 23px
+    &:hover
+      cursor: pointer
+  nav
+    margin-top: 15px
+    width: 100%
+    ul
+      list-style: none
+      margin: 0
+      padding: 0
+      display: flex
+      gap: 40px
+      align-items: center
+      li
+        a
+          position: relative
+          font-weight: 700
+          font-size: 23px
+          line-height: 100%
+          text-decoration: none
+          color: #000
+          letter-spacing: -0.03em
+          text-transform: lowercase
+          &:hover
+            &::after
+              bottom: -9px
+              opacity: 1
+          &::after
+            opacity: 0
+            content: ''
+            position: absolute
+            left: 0
+            transition: all 0.4s ease-in-out
+            bottom: -15px
+            width: 21px
+            height: 5px
+            background: #000
+  .minicart
+    position: relative
+    display: block
+    padding: 5px
+    transition: all 0.3s ease
+    &:hover
+      background: #000
+      svg
+        path
+          fill: white
+      span
+        color: white  
+    span
+      color: #000
+      text-decoration: none
+      position: absolute
+      top: 64%
+      left: 50%
+      transition: all 0.3s ease
+      transform: translate(-50%, -50%)
+      font-weight: 700
+      font-size: 14px
+      line-height: 115%
+    svg
+      path
+        transition: all 0.3s ease
+
+
+
+.mobile-menu.active
+  opacity: 1
+  z-index: 999
+  pointer-events: all
+.mobile-menu
+  pointer-events: none
+  opacity: 0
+  transition: all 0.3s ease
+  position: fixed
+  top: 0
+  left: 0
+  right: 0
+  z-index: -1
+  background: white
+  min-height: 100vh
+  height: 100%
+  width: 100%
+  padding: 0 20px
+  .top-row
+    display: flex
+    justify-content: space-between
+    align-items: center
+    a
+      text-decoration: none
+    .logo
+      width: 40%
+      max-width: 200px
+      svg
+        width: 100%
+    span
+      display: flex
+      gap: 25px
+      svg
+        &:hover
+          cursor: pointer
+  .soc-link
+    margin-bottom: 10px
+    text-decoration: none
+    font-weight: 700
+    font-size: 19px
+    line-height: 102%
+    color: #141414
+    letter-spacing: -0.03em
+    text-transform: lowercase
+    display: block
+  nav
+    margin-top: 33px
+    margin-bottom: 50px
+    ul
+      padding: 0
+      margin: 0
+      list-style: none
+      display: flex
+      flex-direction: column
+      gap: 30px
+      li
+        a
+          font-weight: 700
+          color: #141414
+          font-size: 26px
+          line-height: 100%
+          letter-spacing: -0.05em
+          text-decoration: none
+          text-transform: lowercase

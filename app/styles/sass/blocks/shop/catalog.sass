@@ -1,0 +1,193 @@
+.catalog
+  padding: 26px 0 0 0
+  .buttons
+    display: flex
+    gap: 40px
+    margin-bottom: 22px
+    .button
+      height: 60px
+      background: #D8D3C6
+      border-color: #D8D3C6
+      color: #000
+      &:hover
+        color: #000
+        border-color: #000
+        background: white
+    .active
+      border-color: #000
+      background: #000
+      color: #fff
+      &:hover
+        color: #000
+  .filter.sort
+    justify-content: flex-end
+    .filter-item
+      .list
+        left: auto
+        right: 0
+        .item
+          label
+            &:hover
+              cursor: pointer
+  .filter
+    margin-bottom: 10px
+    display: flex
+    gap: 40px
+    .filter-item.active
+      .title
+        color: #767676
+        svg
+          transform: rotate(180deg)
+          path
+            fill: #767676
+    .filter-item
+      position: relative
+      .title
+        display: flex
+        gap: 3px
+        font-weight: 700
+        font-size: 14px
+        line-height: 115%
+        &:hover
+          cursor: pointer
+        svg, svg path
+          transition: all 0.3s ease
+      .button
+        width: 100%
+        height: 34px
+        font-size: 14px
+        line-height: 115%
+        padding: 2px 7px
+        margin-top: 12px
+      .list.active
+        z-index: 20
+        opacity: 1
+        pointer-events: all
+      .list.columns
+        flex-direction: row
+        flex-wrap: wrap
+        justify-content: space-between
+        .item
+          width: 45%
+      .list.sort
+        .item
+          .btn
+            border-radius: 100%
+      .list
+        transition: all 0.3s ease-in-out
+        opacity: 0
+        pointer-events: none
+        position: absolute
+        // bottom: -4px
+        z-index: -1
+        left: 0
+        padding: 20px
+        background: #D8D3C6
+        width: 200px
+        display: flex
+        flex-direction: column
+        gap: 8px
+        .item.active
+          .btn
+            background: #000
+        .item
+          label
+            font-weight: 400
+            font-size: 16px
+            line-height: 100%
+            display: flex
+            justify-content: space-between
+            text-transform: lowercase
+            input
+              display: none
+            .btn
+              transition: all 0.3s ease
+              width: 17px
+              height: 17px
+              border: 1px solid #767676
+  .search-form
+    position: relative
+    input
+      width: 100%
+      color: #767676
+      border-top: none
+      border-left: none
+      border-right: none
+      border-bottom: 1px solid #000000
+      height: 20px
+      padding: 5px 0
+      font-size: 14px
+      line-height: 115%
+      letter-spacing: -0.03em
+      font-weight: 700
+      &::placeholder
+        font-weight: 700
+        font-size: 14px
+        line-height: 115%
+        letter-spacing: -0.03em
+        color: #767676
+    button
+      background: none
+      border: none
+      position: absolute
+      right: 0
+      top: 50%
+      transform: translateY(-50%)
+  .products
+    padding-top: 10px
+    padding-bottom: 0
+    .card
+      margin-bottom: 10px
+    .button
+      width: 100%
+      height: 34px
+      font-size: 14px
+      line-height: 115%
+      padding: 2px 7px
+      margin-bottom: 34px
+      &:hover
+        background: #D8D3C6
+        border-color: #D8D3C6
+        color: #000
+
+.block-catalog
+  position: relative
+  overflow: hidden
+  width: 100%
+  .block-catalog__link
+    .block-catalog__img
+      overflow: hidden
+      height: 260px
+      width: 100%
+      position: relative
+      img
+        width: 100%
+        height: 100%
+        object-fit: cover
+  .swiper-pagination
+    position: absolute
+    left: 0
+    top: 0
+    width: 100%
+    z-index: 3
+    height: 100%
+    display: flex
+    align-items: flex-start
+    justify-content: space-between
+    .swiper-pagination-bullet
+      margin: 0
+      flex: 1
+      height: 100%
+      border-radius: 0
+      background-color: transparent
+  .swiper-scrollbar
+    background: rgba(255, 255, 255, .5)
+    bottom: 0
+    height: 2px
+    position: absolute
+    z-index: 5
+    margin: 0
+    .swiper-scrollbar-drag
+      height: 2px
+      background-color: grey
+

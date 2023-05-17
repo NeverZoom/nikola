@@ -1,0 +1,327 @@
+<!--#set var="title" value="Магазин - Никола-Ленивец" -->
+<!--#include virtual="/parts/header.html" -->
+
+
+<!--#include virtual="/parts/top-line.html" -->
+
+<div class="woocommerce"><div class="woocommerce-notices-wrapper"></div><div class="woocommerce-form-coupon-toggle">
+	
+	<div class="woocommerce-info">
+		Есть купон? <a href="#" class="showcoupon">Нажмите, чтобы ввести код</a>	</div>
+</div>
+
+<form class="checkout_coupon woocommerce-form-coupon" method="post" >
+
+	<p>Если у вас есть код купона, укажите его ниже.</p>
+
+	<p class="form-row form-row-first">
+		<label for="coupon_code" class="screen-reader-text">Купон:</label>
+		<input type="text" name="coupon_code" class="input-text" placeholder="Код купона" id="coupon_code" value="">
+	</p>
+
+	<p class="form-row form-row-last">
+		<button type="submit" class="button wp-element-button" name="apply_coupon" value="Применить купон">Применить купон</button>
+	</p>
+
+	<div class="clear"></div>
+</form>
+<div class="woocommerce-notices-wrapper">
+	<div class="woocommerce-message" role="alert">
+		Клиент соответствует зоне «Россия»	</div>
+</div><section class="checkout">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-6">
+        <h2 class="main">Получатель и доставка</h2>
+        <div class="row">
+          <div class="col-xl-12">
+						<form name="checkout" method="post" class="checkout woocommerce-checkout" action="https://nikola/checkout/" enctype="multipart/form-data" novalidate="novalidate">
+
+																									<div class="woocommerce-billing-fields">
+	
+		<h3 class="d-none">Оплата и доставка</h3>
+
+	
+	Однажды тут будет поле.
+	<div class="woocommerce-billing-fields__field-wrapper">
+		<p class="form-row address-field update_totals_on_change form-row-wide wooccm-field wooccm-field-country wooccm-type-hidden address-field update_totals_on_change" id="billing_country_field" data-priority="10"><label for="billing_country" class="">Country&nbsp;<span class="optional">(необязательно)</span></label><span class="woocommerce-input-wrapper"><input type="hidden" class="input-hidden " name="billing_country" id="billing_country" value="RU" data-required="0" autocomplete="country"></span></p><input type="hidden" name="billing_country" id="billing_country" value="RU" 0="" country="" readonly="readonly"><p class="form-row form-row-wide wooccm-field wooccm-field-first_name wooccm-type-text validate-required" id="billing_first_name_field" data-priority="20"><label for="billing_first_name" class="screen-reader-text">Имя&nbsp;<abbr class="required" title="обязательно">*</abbr></label><span class="woocommerce-input-wrapper"><input type="text" class="input-text wooccm-required-field" name="billing_first_name" id="billing_first_name" placeholder="Имя" value="1" data-required="1"></span></p><p class="form-row form-row-wide wooccm-field wooccm-field-last_name wooccm-type-text wooccm-clearfix validate-required" id="billing_last_name_field" data-priority="30"><label for="billing_last_name" class="screen-reader-text">Фамилия&nbsp;<abbr class="required" title="обязательно">*</abbr></label><span class="woocommerce-input-wrapper"><input type="text" class="input-text wooccm-required-field" name="billing_last_name" id="billing_last_name" placeholder="Фамилия" value="1" data-required="1" autocomplete="family-name"></span></p><p class="form-row form-row-wide wooccm-field wooccm-field-email wooccm-type-email validate-required validate-email" id="billing_email_field" data-priority="40"><label for="billing_email" class="screen-reader-text">эл. почта&nbsp;<abbr class="required" title="обязательно">*</abbr></label><span class="woocommerce-input-wrapper"><input type="email" class="input-text wooccm-required-field" name="billing_email" id="billing_email" placeholder="эл. почта" value="mrneverzoom@gmail.com" data-required="1" autocomplete="email username"></span></p><p class="form-row form-row-wide wooccm-field wooccm-field-phone wooccm-type-tel wooccm-clearfix validate-phone" id="billing_phone_field" data-priority="50"><label for="billing_phone" class="screen-reader-text">Телефон&nbsp;<span class="optional">(необязательно)</span></label><span class="woocommerce-input-wrapper"><input type="tel" class="input-text " name="billing_phone" id="billing_phone" placeholder="Телефон" value="" data-required="0" autocomplete="tel"></span></p><p class="form-row form-row-wide wooccm-field wooccm-field-address_1 wooccm-type-text address-field validate-required" id="billing_address_1_field" data-priority="70"><label for="billing_address_1" class="screen-reader-text">Адрес&nbsp;<abbr class="required" title="обязательно">*</abbr></label><span class="woocommerce-input-wrapper"><input type="text" class="input-text wooccm-required-field" name="billing_address_1" id="billing_address_1" placeholder="Адрес" value="Продольная" data-required="1" autocomplete="address-line1"></span></p><p class="form-row form-row-wide wooccm-field wooccm-field-postcode wooccm-type-text wooccm-clearfix address-field validate-postcode" id="billing_postcode_field" data-priority="110"><label for="billing_postcode" class="screen-reader-text">Индекс&nbsp;<span class="optional">(необязательно)</span></label><span class="woocommerce-input-wrapper"><input type="text" class="input-text " name="billing_postcode" id="billing_postcode" placeholder="Индекс" value="357300" data-required="0" autocomplete="postal-code"></span></p>	</div>
+
+	</div>
+
+										<div class="woocommerce-shipping-fields">
+	</div>
+<div class="woocommerce-additional-fields">
+				<div class="wooccm-additional-fields">
+								<div class="wooccm-clearfix"></div>
+			</div>
+		
+	
+	<script type="text/javascript">var fooevents_seating_data = new Object();</script><script type="text/javascript">var fooevents_seats_unavailable = new Object();</script><script type="text/javascript">var fooevents_seats_blocked = new Object();</script><script type="text/javascript">var fooevents_seats_aisles = new Object();</script><script type="text/javascript">var anyVariations = new Object();</script></div>
+																						
+							<h3>промокод</h3>
+            	<input type="text" id="new-coupon" placeholder="Введите промокод">
+
+							<div class="text-ul">
+																							
+	 <h3>Выберете способ доставки</h3>
+	
+					<div id="shipping_method" class="woocommerce-shipping-methods">
+									<div>
+						<input class="d-none" type="radio" name="shipping_method[0]" data-index="0" id="shipping_method_0_local_pickup-1" value="local_pickup:1"><label for="shipping_method_0_local_pickup-1" class="delivery"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<rect x="0.5" y="0.5" width="16" height="16" rx="8" fill="black" stroke="#767676"></rect>
+						</svg> Самовывоз</label>					</div>
+									<div>
+						<input class="d-none" type="radio" name="shipping_method[0]" data-index="0" id="shipping_method_0_flat_rate-4" value="flat_rate:4" checked="checked"><label for="shipping_method_0_flat_rate-4" class="delivery"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<rect x="0.5" y="0.5" width="16" height="16" rx="8" fill="black" stroke="#767676"></rect>
+						</svg> Единая ставка: <span class="woocommerce-Price-amount amount"><bdi>500&nbsp;<span class="woocommerce-Price-currencySymbol">₽</span></bdi></span></label>					</div>
+							</div>
+						
+		
+			
+
+													
+														</div>
+
+														<div id="order_review" class="woocommerce-checkout-review-order">
+								<table class="shop_table woocommerce-checkout-review-order-table" style="width: 100%">
+	<tbody class="d-none">
+						<tr class="cart_item">
+					<td class="product-name">
+						Тяги бархатные&nbsp;						 <strong class="product-quantity">×&nbsp;1</strong>											</td>
+					<td class="product-total">
+						<span class="woocommerce-Price-amount amount"><bdi>500&nbsp;<span class="woocommerce-Price-currencySymbol">₽</span></bdi></span>					</td>
+				</tr>
+					</tbody>
+	<tfoot>
+
+		<tr class="cart-subtotal">
+			<th><h3>товаров на сумму</h3></th>
+			<td><h3><span class="woocommerce-Price-amount amount"><bdi>500&nbsp;<span class="woocommerce-Price-currencySymbol">₽</span></bdi></span></h3></td>
+		</tr>
+		<tr>
+			<th>
+      	<h3>Доставка</h3>
+			</th>
+			<td>
+      	<h3><span class="woocommerce-Price-amount amount"><bdi>500&nbsp;<span class="woocommerce-Price-currencySymbol">₽</span></bdi></span></h3>
+			</td>
+		</tr>
+
+		
+					
+			
+			<tr class="woocommerce-shipping-totals shipping">
+	<th> <h3>Выберете способ доставки</h3></th>
+	<td data-title="Доставка">
+					<div id="shipping_method" class="woocommerce-shipping-methods">
+									<div>
+						<input class="d-none" type="radio" name="shipping_method[0]" data-index="0" id="shipping_method_0_local_pickup-1" value="local_pickup:1"><label for="shipping_method_0_local_pickup-1" class="delivery"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<rect x="0.5" y="0.5" width="16" height="16" rx="8" fill="black" stroke="#767676"></rect>
+						</svg> Самовывоз</label>					</div>
+									<div>
+						<input class="d-none" type="radio" name="shipping_method[0]" data-index="0" id="shipping_method_0_flat_rate-4" value="flat_rate:4" checked="checked"><label for="shipping_method_0_flat_rate-4" class="delivery"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<rect x="0.5" y="0.5" width="16" height="16" rx="8" fill="black" stroke="#767676"></rect>
+						</svg> Единая ставка: <span class="woocommerce-Price-amount amount"><bdi>500&nbsp;<span class="woocommerce-Price-currencySymbol">₽</span></bdi></span></label>					</div>
+							</div>
+						
+		
+			</td>
+</tr>
+
+			
+		
+		
+		
+		
+		<tr>
+			<th style="padding: 0"><hr class="hr"></th>
+			<td style="padding: 0"><hr class="hr"></td>
+		</tr>
+		<tr class="order-total">
+			<th>
+				<h2>Итого</h2>
+			</th>
+			<td>
+			<span class="d-flex justify-content-between">
+			  <h2><strong><span class="woocommerce-Price-amount amount"><bdi>1 000&nbsp;<span class="woocommerce-Price-currencySymbol">₽</span></bdi></span></strong> </h2>
+			</span>
+			</td>
+		</tr>
+		
+	</tfoot>
+</table>
+
+<div id="payment" class="woocommerce-checkout-payment">
+	<h3>Способ оплаты</h3>
+			<div class="wc_payment_methods payment_methods methods">
+			<div class="wc_payment_method payment_method_rbspayment">
+	<input id="payment_method_rbspayment" type="radio" class="input-radio" name="payment_method" value="rbspayment" checked="checked" data-order_button_text="" style="display: none;">
+
+	<label class=" get-pay d-flex justify-content-between" for="payment_method_rbspayment">
+	<span class="payment">
+	<svg width="17" height="17" class="active" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect x="0.5" y="0.5" width="16" height="16" rx="8" fill="black" stroke="#767676"></rect>
+                </svg> 	
+	Visa / Mastercard / Мир 
+	</span>
+	<img src="https://nikola/wp-content/plugins/dev-woocommerce-rbspayment-ofd/logo.png" alt="Visa / Mastercard / Мир">	</label>
+	</div>
+		</div>
+		<div class="form-row place-order">
+		<noscript>
+			Поскольку ваш браузер не поддерживает JavaScript или в нем он отключен, просим убедиться в том, что вы нажали кнопку <em>Обновить итог</em> перед регистрацией заказа. Иначе, есть риск неправильного подсчета стоимости.			<br/><button type="submit" class="button alt wp-element-button" name="woocommerce_checkout_update_totals" value="Обновить итог">Обновить итог</button>
+		</noscript>
+
+
+		
+		<button type="submit" class="button alt wp-element-button" name="woocommerce_checkout_place_order" id="place_order" value="Подтвердить заказ" data-value="Подтвердить заказ">Подтвердить заказ</button>
+				
+	<div class="woocommerce-terms-and-conditions-wrapper">
+	<span class="mini-info"><h4>
+		<div class="woocommerce-privacy-policy-text"><p>Ваши личные данные будут использоваться для обработки ваших заказов, упрощения вашей работы с сайтом и для других целей, описанных в нашей <a href="https://nikola/politika-obrabotki-personalnyh-dannyh/" class="woocommerce-privacy-policy-link" target="_blank">политика конфиденциальности</a>.</p>
+</div><div class="woocommerce-terms-and-conditions" style="display: none; max-height: 200px; overflow: auto;"><p><span style="font-weight: 400">Территория Арт-парка Никола-Ленивец (далее – Парк) является частной собственностью.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400">На территории Арт-парка действуют Правила, определенные Администрацией Парка, которые являются обязательными к исполнению всеми посетителями Арт-парка Никола-Ленивец.</span></p>
+<p>&nbsp;</p>
+<ol>
+<li><span style="font-weight: 400"> Доступ в Арт-парк Никола-Ленивец</span></li>
+</ol>
+<p>&nbsp;</p>
+<ol>
+<li><span style="font-weight: 400"> Входные билеты на территорию Парка приобретаются в кассах Арт-парка Никола-Ленивец, в авторизованных пунктах продаж или на сайте www.nikola-lenivets.ru. Возврат билетов может осуществляться в соответствии с Билетной политикой Парка.</span></li>
+<li><span style="font-weight: 400"> Приобретая входной билет, гость подтверждает, что ознакомился с правилами посещения Парка, Билетной политикой и правилами безопасности арт-объектов и согласен с данными правилами.</span></li>
+<li><span style="font-weight: 400"> Следует сохранять входные билеты и фискальный чек на протяжении всего периода пребывания на территории Арт-парка и предъявлять их работникам Парка по первому требованию.</span></li>
+<li><span style="font-weight: 400"> Арт-парк Никола-Ленивец оставляет за собой право отказать во входе или потребовать покинуть территорию Парка посетителей, а также изъять входные билеты без возмещения их стоимости в следующих случаях:</span></li>
+</ol>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400">несоблюдение настоящих Правил и Инструкций Парка;</span></p>
+<p><span style="font-weight: 400">нарушение общественного порядка на территории Парка;</span></p>
+<p><span style="font-weight: 400">мошенничество при использовании входных билетов в Парк;</span></p>
+<p><span style="font-weight: 400">проявление поведения, нарушающего спокойствие других гостей Парка;</span></p>
+<p><span style="font-weight: 400">неправомерное проникновение на территорию Парка;</span></p>
+<p><span style="font-weight: 400">порча имущества, принадлежащего КБ «Никола-Ленивец».</span></p>
+<p>&nbsp;</p>
+<ol start="5">
+<li><span style="font-weight: 400"> Арт-парк Никола-Ленивец оставляет за собой право осматривать на входе в парк личные вещи гостей с применением досмотровой техники и оборудования. В случае возникновения подозрений о наличии запрещенных предметов, гости Парка обязаны предъявить личные вещи для досмотра сотрудниками Арт-парка Никола-Ленивец.</span></li>
+<li><span style="font-weight: 400"> Владельцам Билетов, которые отказываются от представления к осмотру (визуальный осмотр, с применением досмотровой техники и оборудования) носимой клади, личных вещей, будет отказано в праве входа в Парк. Данное условие обязательно к исполнению в целях исключения актов терроризма и правонарушений с использованием оружия и опасных предметов.</span></li>
+<li><span style="font-weight: 400"> Запрещается проносить на территорию парка:</span></li>
+</ol>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400">оружие любого типа, в том числе предметы для самообороны, боеприпасы, колющие или режущие предметы, другие предметы, которые могут быть использованы в качестве оружия, ядовитые, химические, отравляющие и едко пахнущие вещества, радиоактивные материалы, легковоспламеняющиеся материалы, взрывчатые вещества, другие опасные предметы, а также предметы, которые, хотя и не представляют опасности, по мнению Администрации Парка могут доставить неудобства другим гостям Парка;</span></p>
+<p><span style="font-weight: 400">огнеопасные и пиротехнические вещества или изделия, включая сигнальные ракеты, файеры, петарды, газовые баллоны и предметы (химические материалы), которые могут быть использованы для изготовления пиротехнических изделий или дымов, красящие вещества;</span></p>
+<p><span style="font-weight: 400">пропагандистские материалы экстремистского характера, материалы, содержащие нацистскую либо экстремистскую атрибутику или символику;</span></p>
+<p><span style="font-weight: 400">громоздкие предметы, которые по мнению Администрации Парка, могут создать неудобства другим гостям Парка;</span></p>
+<p><span style="font-weight: 400">наркотические и токсические вещества или стимуляторы;</span></p>
+<p><span style="font-weight: 400">любые предметы, внешне напоминающие запрещенные предметы или их копии и аналоги;</span></p>
+<p><span style="font-weight: 400">продукты питания и напитки за исключением детского питания в заводской (фабричной) таре (упаковке);</span></p>
+<p><span style="font-weight: 400">лекарственные препараты и средства медицинского назначения более установленного количества и объема (всем посетителям Парка разрешено проносить лекарственные препараты в количестве не более 1 упаковки не более 3 различных наименований лекарственных препаратов, в любой форме, в т. ч. аэрозолях, каплях, шприцах и т.п. в заводской фабричной упаковке. Объем лекарственных препаратов не должен превышать 100 мл);</span></p>
+<p><span style="font-weight: 400">устройства с лазерным излучением;</span></p>
+<p><span style="font-weight: 400">телевизионное оборудование, штативы для фото и видео аппаратуры;</span></p>
+<p><span style="font-weight: 400">устройства, создающие излишний шум (вувузела, барабан, свисток, клаксон/гудок, охотничий рог);</span></p>
+<p><span style="font-weight: 400">запрещено проносить любые предметы, которые могут нанести вред здоровью гостей, повредить имущество или помешать нормальной работе Парка;</span></p>
+<p><span style="font-weight: 400">воздушные шары/фигуры наполненные гелием/другим газом легче воздуха, которые могут оказать негативное воздействие на работу арт-объектов;</span></p>
+<ol start="8">
+<li><span style="font-weight: 400"> Запрещается нахождение гостей в Парке в нерабочее время Парка.</span></li>
+<li><span style="font-weight: 400"> Запрещается въезд на территорию и катание на велосипедах, мотоциклах, роликовых коньках, скейтбордах и прочем спортивном инвентаре, в т.ч. на электрических самобалансирующихся самокатах с двумя или тремя колёсами (например, марки Segway). Запрещается вход в Парк с любыми самоходными средствами передвижения. Исключение – детская коляска.</span></li>
+<li><span style="font-weight: 400"> Запрещается проходить в Парк в состоянии алкогольного, наркотического, токсического и иного опьянения.</span></li>
+<li><span style="font-weight: 400"> Запрещается проходить в Парк в грязной одежде.</span></li>
+<li><span style="font-weight: 400"> Детям в возрасте до 12 лет разрешается вход в Парк только в сопровождении ответственных за них взрослых.</span></li>
+<li><span style="font-weight: 400"> Вход с домашними животными (собаками, кошками и т.п.) разрешен.</span></li>
+<li><span style="font-weight: 400"> Для обеспечения безопасности в Парке ведется видеонаблюдение. Администрация Парка оставляет за собой право удалить из парка посетителей, чьи действия создают угрозу безопасности других гостей без компенсации стоимости билетов. Владелец Билета дает согласие на то, что любая запись с его участием, сделанная в рамках применения мер обеспечения общей безопасности, может быть использована в целях общей безопасности или передана полиции для использования в ходе процессуальных разбирательств в рамках действующего законодательства.</span></li>
+<li><span style="font-weight: 400"> На кассе и/или у координаторов можно получить полную информацию о времени проведения шоу и мероприятий в течение дня, а также о работе всех объектов и предоставлении услуг. Парк оставляет за собой право вносить изменения в программу шоу и мероприятий по техническим причинам, из-за погодных условий, из-за проведения работ или в целях безопасности.</span></li>
+<li><span style="font-weight: 400"> Гости, желающие покинуть территорию Парка и вернуться в тот же день, должны на выходе проинформировать оператора входной группы, который делает необходимую отметку печатью и/или выдает идентификационный предмет для возможности повторного входа в Парк. Для того, чтобы снова войти на территорию парка, гости обязаны предъявить входной билет, печать и/или идентификационный предмет.</span></li>
+<li><span style="font-weight: 400"> Администрация Парка не несет ответственности за билеты, приобретенные не у официальных агентов.</span></li>
+<li><span style="font-weight: 400"> Владелец билета не может перепродавать, передавать (для коммерческой или иной личной выгоды) или распространять билеты (выше или ниже номинальной стоимости, указанной на билете), или приобретать билеты через продавца, который не является официальным агентом общества.</span></li>
+</ol>
+<p>&nbsp;</p>
+<ol>
+<li><span style="font-weight: 400"> Пребывание в Арт-парке Никола-Ленивец</span></li>
+</ol>
+<p>&nbsp;</p>
+<ol>
+<li><span style="font-weight: 400"> Владельцы Билетов должны соблюдать законодательство Российской Федерации, общественный порядок и общепринятые нормы поведения, вести себя уважительно по отношению к другим гостям, сотрудникам Парка, лицам, ответственным за соблюдение порядка, не допускать действий, создающих опасность для окружающих, бережно относиться к имуществу ООО «КБ Никола-Ленивец» и имуществу других лиц, соблюдать чистоту. Любое поведение Владельца Билета, которое, по оценке Администрации Парка, создает общественно-опасную ситуацию, ставит под угрозу безопасность окружающих, мешает нормальной работе Парка, запрещено и может повлечь за собой отказ в праве входа в Парк или удаление с территории Парка.</span></li>
+<li><span style="font-weight: 400"> В соответствии со ст.12 ФЗ «Об охране здоровья граждан от воздействия окружающего табачного дыма и последствий потребления табака» от 23.02.2013г. на всей территории Парка курение строго запрещено.</span></li>
+<li><span style="font-weight: 400"> Гости должны внимательно следить за своими личными вещами во время посещения Парка, т.к. Парк не несет ответственности за утерю, кражу или повреждение личных вещей посетителей.</span></li>
+<li><span style="font-weight: 400"> Парк оставляет за собой право организовывать, планировать, ограничивать и закрывать доступ посетителей в отдельные зоны парка. Возможно временное/постоянное закрытие отдельных зон, заведений парка, полное закрытие парка по техническим причинам, из-за погодных условий, в целях безопасности или проведения работ. Возможно закрытие арт-объектов на техническое обслуживание в течение рабочего дня Парка. Вышеперечисленное не дает права на возмещение стоимости входного билета или изменение даты его действия.</span></li>
+<li><span style="font-weight: 400"> Запрещается купание в озере, фонтанах, других водных объектах Парка.</span></li>
+<li><span style="font-weight: 400"> Запрещается находиться в Парке в купальных костюмах, плавках, босиком или с обнаженным торсом.</span></li>
+<li><span style="font-weight: 400"> В случае порчи имущества (в том числе зеленых насаждений) Парка посетитель обязан возместить нанесенный материальный ущерб.</span></li>
+<li><span style="font-weight: 400"> Запрещается осуществлять торговлю и другие виды деятельности на территории Парка без согласования с Администрацией Парка.</span></li>
+<li><span style="font-weight: 400"> Запрещается распространять печатные издания и материалы; распространять, показывать или поощрять любую рекламу/рекламные материалы, образцы товаров или услуг или любой другой тип продукции на территории Парка.</span></li>
+<li><span style="font-weight: 400"> Запрещается применять в Парке методы партизанского маркетинга.</span></li>
+<li><span style="font-weight: 400"> Запрещается заниматься пропагандой политических и религиозных взглядов.</span></li>
+<li><span style="font-weight: 400"> Запрещается использование радиоэлектронных средств и высокочастотных устройств в режимах работы, не соответствующих разрешениям.</span></li>
+<li><span style="font-weight: 400"> Запрещается сбор и употребление в пищу плодов и ягод, произрастающих на деревьях и кустарниках на территории Парка.</span></li>
+<li><span style="font-weight: 400"> Владельцы Билетов признают и соглашаются, что их фото и/или видеоизображение, полученное во время посещения Парка, может быть обнародовано и использовано Парком путем показа видео, трансляции в прямом эфире или в записи, передачи или записи другим способом, с помощью фотографий или других существующих информационных технологий и/или технологий, которые будут существовать в будущем.</span></li>
+<li><span style="font-weight: 400"> Изображения и видеозаписи, сделанные Владельцем Билета во время посещения Парка, могут использоваться только для частного домашнего использования. Видеосъёмка может быть сделана только с использованием бытовых видеокамер без штатива. Владелец Билета не может использовать видеозаписи для коммерческих целей при любых обстоятельствах, в интернете или иначе, предоставлять их третьим лицам для коммерческих целей.</span></li>
+</ol>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400">III. Посещение арт-объектов Арт-парка Никола-Ленивец</span></p>
+<p>&nbsp;</p>
+<ol>
+<li><span style="font-weight: 400"> В целях безопасности на арт-объектах в развлекательных зонах Парка существуют ростовые, весовые, антропометрические и другие ограничения. Полная версия ограничений и правил для посетителей арт-объектов расположена во входной группе, на арт-объектах и на официальном сайте www.nikola-lenivets.ru.</span></li>
+<li><span style="font-weight: 400"> Гости Парка обязаны соблюдать Правила для посетителей арт-объектов и следовать инструкциям операторов арт-объектов.</span></li>
+<li><span style="font-weight: 400"> Посетители Парка самостоятельно оценивают степень риска при посещении развлекательных зон Парка, в том числе взрослые принимают решение и оценивают состояние здоровья, возможности организма детей и несут ответственность за психо-эмоциональное состояние сопровождаемых ими детей при посещении арт-объекта.</span></li>
+<li><span style="font-weight: 400"> В случае получения травм, материального ущерба по причине несоблюдения/нарушения настоящих Правил и инструкций, а также устных указаний персонала Арт-парка, Никола-Ленивец ответственности не несет.</span></li>
+<li><span style="font-weight: 400"> На арт-объектах во время просмотра не разрешается иметь при себе личные вещи, которые могут нанести травмы, могут быть испорчены или утеряны. Перед тем, как пройти на арт-объект, необходимо оставить вещи сопровождающим лицам. Парк не несет ответственности за кражу, утерю или порчу личных вещей.</span></li>
+<li><span style="font-weight: 400"> Во время просмотра разрешается вести фото, видеосъемку с рук мобильными устройствами и кинокамерами для личного и некоммерческого использования.</span></li>
+<li><span style="font-weight: 400"> После окончания просмотра зрители обязаны покинуть зону арт-объекта. Для повторного просмотра на этом арт-объекте следует вновь встать в очередь.</span></li>
+</ol>
+<p>&nbsp;</p>
+<ol>
+<li><span style="font-weight: 400"> Заключительные положения</span></li>
+</ol>
+<p>&nbsp;</p>
+<ol>
+<li><span style="font-weight: 400"> Парк оставляет за собой право вносить изменения в настоящие Правила в одностороннем порядке; такие изменения вступают в силу с даты публикация обновленной версии Политики на сайте Парка — www.nikola-lenivets.ru.</span></li>
+<li><span style="font-weight: 400"> В случае ухудшения погодных условий Администрация Парка имеет право на изменение часов работы Парка и времени его закрытия.</span></li>
+<li><span style="font-weight: 400"> Настоящие Правила регулируются в соответствии с нормами российского права. Любые споры, возникающие из правоотношений, регулируемых настоящими Правилами, подлежат разрешению в порядке, предусмотренном законодательством Российской Федерации.</span></li>
+</ol>
+<p>&nbsp;</p>
+</div>
+					
+				<label class="d-block woocommerce-form__label woocommerce-form__label-for-checkbox checkbox">
+				<input type="checkbox" class="d-block woocommerce-form__input woocommerce-form__input-checkbox input-checkbox" name="terms" id="terms">
+					<span class="woocommerce-terms-and-conditions-checkbox-text">Я прочитал(а) и принимаю <a href="https://nikola/pravila-poseshheniya-art-parka-nikola-lenivets/" class="woocommerce-terms-and-conditions-link" target="_blank">правила и условия</a> сайта</span>&nbsp;<abbr class="required" title="обязательно">*</abbr>
+				</label>
+				<input type="hidden" name="terms-field" value="1">
+			
+				</h4></span>
+	</div>
+	
+		<input type="hidden" id="woocommerce-process-checkout-nonce" name="woocommerce-process-checkout-nonce" value="bae7306a36"><input type="hidden" name="_wp_http_referer" value="/?wc-ajax=update_order_review">	</div>
+</div>
+
+							</div>
+							
+						</form>
+ </div>
+        </div>
+      </div>
+      <div class="col-xl-6">
+        <h2 class="main">Ваш заказ / 1 шт.</h2>
+				        <div class="row cart">
+          <div class="col-xl-6 col-6">
+            <img src="https://nikola/wp-content/uploads/2022/11/p7.png" alt="">
+          </div>
+          <div class="col-xl-6 col-6 d-flex flex-column justify-content-between">
+            <h4><b>Тяги бархатные</b></h4>
+						<div class="attrs"></div>						          </div>
+        </div>
+								<div class="row upsell">
+  <div class="col-xl-12">
+    <hr class="hr">
+    <h2>Не забудьте добавить в заказ</h2>
+  </div>
+  </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</div>
+
+<!--#include virtual="/parts/bottom.html" -->
+
+
+<!--#include virtual="/parts/footer.html" -->

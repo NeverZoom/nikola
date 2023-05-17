@@ -1,0 +1,805 @@
++media-breakpoint-up(xs)
+  .hero
+    margin: 5px 0 0px 0
+    a
+      display: block
+      margin-bottom: 20px
+  .top-line
+    padding: 0
+  h1
+    font-size: 26px
+    line-height: 102%
+  h2
+    font-size: 19px
+    line-height: 102%
+  h3, .button
+    font-size: 12px
+    line-height: 102%
+  p
+    font-size: 10px
+    line-height: 115%
+  h4
+    font-size: 10px
+    line-height: 115%
+  h5
+    font-size: 7px
+    line-height: 100%
+  .products
+    padding-bottom: 5px
+    .card
+      margin-bottom: 15px
+      .sale, .new
+        top: 6px
+        left: 7px
+        padding: 4px
+        width: 50px
+      img
+        height: 140px
+      span
+        margin-top: 4px
+  .fests
+    .card
+      margin-bottom: 11px
+      img
+        height: 160px
+    h2
+      margin-bottom: 0px
+    h3
+      margin-bottom: 15px
+  .footer
+    margin-top: 70px
+    padding: 35px 0
+    .logo
+      margin-bottom: 9px
+      img
+        width: 100%
+    span
+      padding-left: 15px
+      margin-bottom: 32px
+    .links
+      text-align: left
+      gap: 10px
+      margin-bottom: 30px
+  .cal
+    padding: 0px 0 0 0
+    h2
+      margin-bottom: 2px
+    h2.gutter
+      margin-bottom: 15px
+      font-weight: 400
+    .card
+      margin-bottom: 15px
+      img
+        height: 140px
+        margin-bottom: 5px
+      .content
+        flex-direction: row-reverse
+        .info
+          p
+            margin-bottom: 0px
+            text-align: right
+          h4
+            max-width: none
+            text-align: right
+        .date
+          p
+            text-align: left
+  .single-fest
+    padding: 0px 0 0 0
+    .main-img
+      margin-bottom: 11px
+      height: 140px
+    h1
+      margin-bottom: 0px
+    p.bold
+      margin-bottom: 12px
+    .buttons
+      min-width: 520px
+      padding: 33px 0 14px 0
+      gap: 20px
+      .button
+        height: 30px
+    .products
+      .card
+        margin-bottom: 6px
+      .button
+        height: 30px
+        font-size: 12px
+        line-height: 102%
+        padding: 2px 6px
+    .product-list
+      margin-bottom: 35px
+  .button
+    width: 140px
+    height: 30px
+    padding: 4px 6px
+    border: 3px solid #000
+  .overflow-x
+    overflow-x: scroll
+  .upsell
+    padding-bottom: 0px
+    .hr
+      height: 2.5px
+      margin: 0 0 10px 0
+    h1
+      margin-bottom: 12px
+    .products
+      padding-bottom: 18px
+      .card
+        margin-bottom: 4px
+      .button
+        height: 30px
+        font-size: 12px
+        line-height: 102%
+        padding: 2px 6px
+  .ticket
+    padding: 10px 0 35px 0
+    img
+      width: 100%
+      height: 140px
+      margin-bottom: 18px
+    .button
+      width: 100%
+      margin-bottom: 15px
+    .info
+      .date
+        margin: 12px 0
+      p
+        margin-bottom: 5px
+      p.bold, b
+        font-weight: 700
+      span
+        display: flex
+        justify-content: space-between
+        flex-direction: column
+        h2
+          width: 100%
+        .price
+          width: 100%
+          display: flex
+          flex-direction: column
+          align-items: flex-start
+          text-align: left
+          p
+            margin-top: 3px
+            font-weight: 700
+            font-size: 9px
+            line-height: 100%
+            text-align: left
+  .catalog
+    padding: 0px 0 0 0
+    .filter.sort
+      justify-content: flex-start
+    .buttons
+      margin-bottom: 30px
+      min-width: 520px
+      gap: 20px
+      .button
+        height: 30px
+    .filter
+      margin-bottom: 0px
+      gap: 0px
+      .main-list.active
+        z-index: 20
+        opacity: 1
+        pointer-events: all
+      .main-list
+        background: #F3F2F3
+        padding: 20px
+        position: absolute
+        left: 0
+        z-index: -1
+        opacity: 0
+        pointer-events: none
+        transition: all 0.3s ease
+        .button
+          background: #D8D3C6
+          border-color: #D8D3C6
+          color: #000
+          &:hover
+            color: #000
+            border-color: #000
+            background: white
+        .list
+          padding: 0 0 20px 0 !important
+          background: none
+          position: relative
+          z-index: 2
+          opacity: 1
+          pointer-events: all
+      .filter-item
+        .title
+          gap: 3px
+          font-size: 12px
+          line-height: 102%
+        .button    
+          height: 34px
+          font-size: 14px
+          line-height: 115%
+          padding: 2px 7px
+          margin-top: 12px
+        .list
+          background: #F3F2F3
+          padding: 20px
+          width: 200px
+          gap: 7px
+          .main-title
+            width: 100%
+            font-weight: 700
+            font-size: 14px
+            line-height: 115%
+            margin-bottom: 9px
+          .item
+            label
+              font-size: 12px
+              .btn
+                width: 17px
+                height: 17px
+    .search-form.active
+      z-index: 2
+      opacity: 1
+      pointer-events: all
+      width: 100%
+      background: white
+      right: 0
+      left: 0
+      bottom: 0
+      padding: 0 20px
+    .search-form
+      position: absolute
+      z-index: -1
+      opacity: 0
+      pointer-events: none
+      button
+        right: 12px
+  .single-product
+    padding: 0px 0 33px 0
+    .swiper_product
+      .swiper-button-prev, .swiper-button-next
+        display: none
+      .swiper-slide
+        img
+          height: 190px
+          margin-bottom: 11px
+    .info
+      span
+        h1
+          margin-bottom: 14px
+        .price
+          p
+            font-size: 12px
+    .attrs    
+      a.link
+        font-size: 14px
+        line-height: 110%
+        margin-bottom: 9px
+        margin-top: 9px
+      .color
+        margin-bottom: 9px
+      .size, .color
+        gap: 20px
+        a
+          height: 30px
+          width: 30px
+          font-size: 14px
+          line-height: 110%
+          letter-spacing: -0.005em
+    .button
+      margin-top: 0px
+      margin-bottom: 14px
+      width: 100%
+    .info-content.active
+      display: block
+    .info-content
+      margin-top: 15px
+      display: none
+      h3
+        display: none
+        margin-bottom: 24px
+  .thx
+    height: 80vh
+    padding: 46px 0 0 0
+    svg
+      width: 100%
+      right: 0%
+      bottom: -55%
+      transform: scale(1)
+    .button 
+      width: 100%
+    h1
+      margin-bottom: 11px
+    h2
+      margin-bottom: 33px
+  .cart
+    padding: 2px 0 0 0
+    .d-flex.align-items-start
+      justify-content: space-between
+    h2
+      font-size: 10px
+      margin-bottom: 12px
+      line-height: 115%
+    .del
+      width: 8px
+      height: 8px
+      display: flex
+      svg
+        width: 100%
+        height: 100%
+    .button
+      margin-top: 15px
+    .main-cart
+      margin-top: 28px
+      img
+        height: 140px
+      span
+        display: block
+        justify-content: space-between
+        &:last-child
+          align-items: flex-end
+      .qty
+        margin-right: 15px
+        gap: 10px
+        input
+          width: 30px
+          text-align: center
+          font-size: 12px
+          line-height: 100%
+          letter-spacing: -0.03em
+          &::placeholder
+            font-size: 12px
+            line-height: 100%
+            letter-spacing: -0.03em
+        button
+          width: 10px
+          height: 10px
+          padding: 0
+    .attrs
+      .size
+        margin-bottom: 7px
+      .size, .color
+        gap: 6px
+  .checkout
+    padding: 10px 0 0px 0
+    h2.main
+      margin-bottom: 8px
+    .cart
+      margin-bottom: 12px
+      .attrs
+        gap: 12px
+      img
+        height: 140px
+    .upsell
+      margin-top: 20px
+      h2
+        margin: 10px 0 20px 0
+    input
+      margin-bottom: 9px
+      padding: 13px
+      font-size: 13px
+      line-height: 115%
+      letter-spacing: -0.005em
+    h3
+      margin-top: 15px
+      margin-bottom: 5px
+    .hr
+      margin: 15px 0
+    .get-pay
+      margin-bottom: 17px
+    .button
+      margin-bottom: 5px
+      height: 40px
+    .mini-info
+      display: block
+      margin-bottom: 26px
+    label
+      gap: 9px
+      font-size: 10px
+      line-height: 115%
+      margin-bottom: 6px
+
++media-breakpoint-up(sm)
+  .thx
+    svg
+      width: 50%
+
++media-breakpoint-up(md)
++media-breakpoint-up(lg)
+  .hero
+    margin: 26px 0 68px 0
+    a
+      margin-bottom: 0px
+  .top-line
+    padding: 23px 0
+  h1
+    font-size: 50px
+    line-height: 80%
+  h2
+    font-size: 30px
+    line-height: 100%
+  h3, .button
+    font-size: 23px
+    line-height: 100%
+  p
+    font-size: 16px
+    line-height: 110%
+  h4
+    font-size: 14px
+    line-height: 115%
+  h5
+    font-size: 9px
+    line-height: 100%
+  .products
+    padding-bottom: 40px
+    .card
+      margin-bottom: 30px
+      .sale, .new
+        top: 12px
+        left: 14px
+        padding: 7px
+        width: 100px
+      img
+        height: 260px
+      span
+        margin-top: 9px
+  .fests
+    .card
+      margin-bottom: 40px
+      img
+        height: 290px
+    h2
+      margin-bottom: 20px
+    h3
+      margin-bottom: 0px
+  .footer
+    margin-top: 100px
+    padding: 65px 0
+    .logo
+      margin-bottom: 17px
+    span
+      padding-left: 25px
+      margin-bottom: 0px
+    .links
+      text-align: right
+      gap: 4px
+      margin-bottom: 0px
+  .cal
+    padding: 35px 0 0 0
+    h2
+      margin-bottom: 20px
+    h2.gutter
+      margin-bottom: 60px
+      font-weight: 700
+    .card
+      margin-bottom: 30px
+      img
+        height: 260px
+        margin-bottom: 6px
+      .content
+        flex-direction: row
+        .info
+          p
+            margin-bottom: 3px
+            text-align: left
+          h4
+            max-width: 300px
+            text-align: left
+        .date
+          p
+            text-align: right
+  .single-fest
+    padding: 20px 0 0 0
+    .main-img
+      height: 360px
+      margin-bottom: 0px
+    h2
+      margin-bottom: 20px
+    h1
+      margin-bottom: 5px
+    p.bold
+      margin-bottom: 24px
+    .buttons
+      padding: 25px 0
+      gap: 40px
+      .button
+        height: 60px
+    .products
+      .card
+        margin-bottom: 6px
+      .button
+        height: 34px
+        font-size: 14px
+        line-height: 115%
+        padding: 2px 7px
+    .product-list
+      margin-bottom: 70px
+  .button
+    width: 260px
+    height: 48px
+    padding: 2px 10px
+    border: 5px solid #000
+  .overflow-x
+    overflow-x: auto
+  .upsell
+    padding-bottom: 40px
+    .hr
+      height: 5px
+      margin: 0 0 26px 0
+    h1
+      margin-bottom: 28px
+    .products
+      padding-bottom: 18px
+      .card
+        margin-bottom: 6px
+      .button
+        height: 34px
+        font-size: 14px
+        line-height: 115%
+        padding: 2px 7px
+  .ticket
+    padding: 10px 0 35px 0
+    img
+      width: 100%
+      height: 360px
+      margin-bottom: 0px
+    .button
+      width: 260px
+      margin-bottom: 0
+    .info
+      .date
+        margin: 20px 0
+      p
+        margin-bottom: 5px
+      p.bold, b
+        font-weight: 700
+      span
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        h2
+          width: 50%
+        .price
+          width: 50%
+          display: flex
+          flex-direction: column
+          align-items: flex-end
+          text-align: right
+          p
+            margin-top: 3px
+            font-weight: 700
+            font-size: 16px
+            line-height: 100%
+            text-align: right
+  .catalog
+    padding: 26px 0 0 0
+    .filter.sort
+      justify-content: flex-end
+    .buttons
+      margin-bottom: 22px
+      gap: 40px
+      .button
+        height: 60px
+    .filter
+      margin-bottom: 10px
+      gap: 40px
+      .filter-item
+        .title
+          gap: 3px
+          font-size: 14px
+          line-height: 115%
+        .button    
+          height: 34px
+          font-size: 14px
+          line-height: 115%
+          padding: 2px 7px
+          margin-top: 12px
+        .list
+          background: #D8D3C6
+          padding: 20px
+          width: 200px
+          gap: 8px
+          .item
+            label
+              font-size: 16px
+              .btn
+                width: 17px
+                height: 17px
+    .search-form
+      position: relative
+      z-index: 1
+      opacity: 1
+      pointer-events: all
+      button
+        right: 0px
+  .single-product
+    padding: 10px 0 64px 0
+    .swiper_product
+      .swiper-button-prev, .swiper-button-next
+        display: flex
+      .swiper-slide
+        img
+          height: 360px
+          margin-bottom: 0px
+    .info
+      span
+        h1
+          margin-bottom: 22px
+        .price
+          p
+            font-size: 16px
+    .attrs
+      a.link
+        font-size: 16px
+        line-height: 110%
+        margin-bottom: 10px
+        margin-top: 3px
+      .color
+        margin-bottom: 10px
+      .size, .color
+        gap: 28px
+        a
+          height: 30px
+          width: 30px
+          font-size: 14px
+          line-height: 110%
+          letter-spacing: -0.005em
+    .button
+      margin-top: 55px
+      margin-bottom: 0px
+      width: 260px
+    .info-content
+      margin-top: 60px
+      display: block
+      h3
+        display: block
+        margin-bottom: 24px
+  .thx
+    height: 60vh
+    padding: 86px 0 0 0
+    svg
+      right: -3%
+      bottom: -50%
+      transform: scale(0.8)
+    .button 
+      width: 100%
+    h1
+      margin-bottom: 19px
+    h2
+      margin-bottom: 60px
+  .cart
+    padding: 17px 0 0 0
+    .d-flex.align-items-start
+      justify-content: start
+    h2
+      margin-bottom: 0px
+      font-size: 30px
+      line-height: 100%
+    .del
+      width: 17px
+      height: 17px
+    .button
+      margin-top: 30px
+    .main-cart
+      margin-top: 34px
+      img
+        height: 260px
+      span
+        display: flex
+        justify-content: space-between
+        &:last-child
+          align-items: flex-end
+      .qty
+        margin-right: 80px
+        gap: 20px
+        input
+          width: 30px
+          font-size: 30px
+          line-height: 100%
+          letter-spacing: -0.03em
+          &::placeholder
+            font-size: 30px
+            line-height: 100%
+            letter-spacing: -0.03em
+        button
+          width: 17px
+          height: 17px
+          padding: 0
+    .attrs
+      .size
+        margin-bottom: 10px
+      .size, .color
+        gap: 28px
+  .checkout
+    padding: 17px 0 30px 0
+    h2.main
+      margin-bottom: 8px
+    .cart
+      margin-bottom: 34px
+      .attrs
+        gap: 28px
+      img
+        height: 150px
+    .upsell
+      margin-top: 35px
+      h2
+        margin: 30px 0
+    input
+      margin-bottom: 14px
+      padding: 20px
+      font-size: 16px
+      line-height: 110%
+      letter-spacing: -0.005em
+    h3
+      margin-top: 25px
+      margin-bottom: 8px
+    .hr
+      margin: 26px 0
+    .get-pay
+      margin-bottom: 30px
+    .button
+      margin-bottom: 9px
+      height: 68px
+    .mini-info
+      margin-bottom: 0px
+    label
+      gap: 14px
+      font-size: 16px
+      line-height: 110%
+      margin-bottom: 6px
+
+
++media-breakpoint-up(xl)
+@media (min-width: 1300px)
+
+
+
+
+.order-5
+  -webkit-box-ordinal-group: 6!important
+  -ms-flex-order: 5!important
+  order: 5!important
+.order-6
+  -webkit-box-ordinal-group: 7!important
+  -ms-flex-order: 6!important
+  order: 6!important
+.order-7
+  -webkit-box-ordinal-group: 8!important
+  -ms-flex-order: 7!important
+  order: 7!important
+.order-8
+  -webkit-box-ordinal-group: 9!important
+  -ms-flex-order: 8!important
+  order: 8!important
+.order-9
+  -webkit-box-ordinal-group: 10!important
+  -ms-flex-order: 9!important
+  order: 9!important
+.order-10
+  -webkit-box-ordinal-group: 11!important
+  -ms-flex-order: 10!important
+  order: 10!important
+
+@media (min-width: 992px)
+  .order-lg-5
+    -webkit-box-ordinal-group: 6!important
+    -ms-flex-order: 5!important
+    order: 5!important
+  .order-lg-6
+    -webkit-box-ordinal-group: 7!important
+    -ms-flex-order: 6!important
+    order: 6!important
+  .order-lg-7
+    -webkit-box-ordinal-group: 8!important
+    -ms-flex-order: 7!important
+    order: 7!important
+  .order-lg-8
+    -webkit-box-ordinal-group: 9!important
+    -ms-flex-order: 8!important
+    order: 8!important
+  .order-lg-9
+    -webkit-box-ordinal-group: 10!important
+    -ms-flex-order: 9!important
+    order: 9!important
+  .order-lg-10
+    -webkit-box-ordinal-group: 11!important
+    -ms-flex-order: 10!important
+    order: 10!important
